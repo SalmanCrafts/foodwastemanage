@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Leftovers | Share Surplus Food</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Food Leftovers</div>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#join">Join Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <h1>Share Surplus Food, Serve the Hungry</h1>
+      <p>
+        Connecting food donors with NGOs to reduce food waste and feed the
+        needy.
+      </p>
+      <div class="cta-buttons">
+        <button
+          onclick="document.getElementById('join').scrollIntoView({ behavior: 'smooth' });"
+        >
+          Donate Now
+        </button>
+        <button
+          onclick="document.getElementById('join').scrollIntoView({ behavior: 'smooth' });"
+        >
+          Join as NGO
+        </button>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <h2>Problem We Solve</h2>
+      <div class="landing-about-container">
+        <img
+          src="./images/landing_about_pb1_img.jpg"
+          alt="Problem 1"
+          class="landing-about-img"
+        />
+        <div class="landing-about-caption">
+          Manual coordination between donors and NGOs
+        </div>
+      </div>
+      <div class="landing-about-container">
+        <div class="landing-about-caption">
+          No real-time visibility of available surplus
+        </div>
+        <img
+          src="./images/landing_about_pb2_img.jpg"
+          alt="Problem 2"
+          class="landing-about-img"
+        />
+      </div>
+      <div class="landing-about-container">
+        <img
+          src="./images/landing_about_pb3_img.png"
+          alt="Problem 3"
+          class="landing-about-img"
+        />
+        <div class="landing-about-caption">
+          Food goes to waste due to slow response
+        </div>
+      </div>
+      <div class="landing-about-container">
+        <div class="landing-about-caption">
+          Lack of a unified donation platform
+        </div>
+        <img
+          src="./images/landing_about_pb4_img.jpg"
+          alt="Problem 4"
+          class="landing-about-img"
+        />
+      </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works-section">
+      <div class="container">
+        <h2 class="section-title">How It Works</h2>
+        <div class="steps-grid">
+          <!-- Step 1 -->
+          <div class="step-card">
+            <img
+              src="./images/landing_how_we_work_img1.jpg"
+              alt="List Surplus Food"
+              class="step-icon"
+            />
+            <h3 class="step-title">List Surplus Food</h3>
+            <p class="step-desc">
+              Donors list extra food with location & details.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <img
+              src="./images/landing_how_we_work_img12.jpg"
+              alt="NGOs Notified"
+              class="step-icon"
+            />
+            <h3 class="step-title">NGOs Notified</h3>
+            <p class="step-desc">
+              Nearby NGOs receive instant alerts on availability.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card">
+            <img
+              src="./images/landing_how_we_work_img3.jpg"
+              alt="Accept & Collect"
+              class="step-icon"
+            />
+            <h3 class="step-title">Accept & Collect</h3>
+            <p class="step-desc">
+              NGOs accept and collect the food from donors.
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="step-card">
+            <img
+              src="./images/landing_how_we_work_img4.jpg"
+              alt="Platform Managed"
+              class="step-icon"
+            />
+            <h3 class="step-title">Platform Managed</h3>
+            <p class="step-desc">
+              Admins monitor activity and manage the system.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="join">
+      <h2>Join the Movement</h2>
+      <p>
+        Whether you're a food donor or an NGO, together we can make a
+        difference.
+      </p>
+      <button>Sign Up as Donor</button>
+      <button>Register as NGO</button>
+    </section>
+
+    <footer id="contact">
+      <p>Food Leftovers &copy; 2025</p>
+      <sub>powered by: Salman Mohammed</sub>
+      <p>Email: contact@foodleftovers.org | Phone: +91-8220227639</p>
+      <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+    </footer>
+  </body>
+</html>
